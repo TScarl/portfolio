@@ -1,0 +1,17 @@
+header{
+    background-color:blue;
+    color:pink;
+    margin: 0 auto;
+}
+
+h2 {
+border: 20px solid red;
+margin: 0px;
+}
+
+.card-frame{
+flex: 0 1 30%;
+border:2px dashed;
+min-height: 200px;
+margin-bottom: 20px
+}

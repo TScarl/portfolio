@@ -1,0 +1,49 @@
+* {
+    background-image: url(Background\ image.jpg);
+}
+
+
+:root{
+--black:rgba(23 11 11 / 97%);
+--gold:rgb(0, 0, 0);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style:none
+  }
+
+main h2, p{
+    display: flex;
+    justify-content: center;
+}
+
+.article-card{
+    height:300px;
+    width:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 22px;
+}
