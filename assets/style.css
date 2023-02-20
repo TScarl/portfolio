@@ -1,49 +1,108 @@
+/*creating some default styling for the entire page*/
 * {
-    background-image: url(Background\ image.jpg);
-}
-
-
-:root{
---black:rgba(23 11 11 / 97%);
---gold:rgb(0, 0, 0);
-}
-
-h1{
-    display: flex;
-    justify-content: center;
-}
-
-nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-main ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style:none
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-
-main h2, p{
+  
+  :root{
+    --blue:rgb(33, 33, 177);
+}
+/*creating spacing and coloring for header and footer*/
+header, footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: black;
 }
-
-.article-card{
-    height:300px;
-    width:300px;
+/*styling text and location of all bullet points, their anchor tags and the button*/
+li, a, button{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 40px;
 }
 
-h3{
+/*styling the headings*/
+h1{
+    color:bisque;
+    padding:15px;
+}
+/*styling the headings*/
+h2{
+    color: var(--blue);
+    padding: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-size: 22px;
+}
+
+/*makes the bullet points within main stand out*/
+li a{
+    flex-direction:column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*creates space between bullet points in header and footer*/
+a{
+    transition: all 0.3s ease 0s;
+    padding: 0px 20px;
+    margin:30px;
+}
+
+/*allows all unordered lists to use flexbox*/
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style:none;
+  }
+/*pseudo-class changing appearance of class "nav-links"*/
+.nav-links a:hover{
+    color: var(--blue) 
+}
+/*styling the button*/
+button{
+    padding:9px 25px;
+    background-color: var(--blue);
+    border:none;
+    border-radius:50px;
+    transition: all 0.3s ease 0s;
+}
+/*pseudo-class changing appearance of mouse when hovering over the button*/
+button:hover{
+    cursor:pointer;
+}
+/*pseudo-class gives function to button when clicked*/
+button:active{
+    background-color: bisque;
+    transform: scale(0.9);
+}
+
+main{
+    background-color: grey;
+}
+/*moving paragraphs away from the edges of the webpage*/
+p{
+    color:bisque;
+    border:40px;
+    padding:20px 150px;
+}
+/*setting the appearance of images within class "article-card*/
+.article-card{
+    height:300px;
+    width:300px;
+    padding: 15px;
+}
+/*enlarges the images within the project section*/
+.article-card:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+   main { background-color: lightgreen;
+}
 }
