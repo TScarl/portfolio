@@ -8,10 +8,10 @@ Its a growing and ever adapting list of all my best work so be sure to keep your
 ![Screenshot (9)](https://user-images.githubusercontent.com/123338043/220012222-2925e3e2-03a4-4886-98a3-ca606aa8f605.png)
 
 ## Usage instructions (for end-users)
-Simply feel free to peruse my website and my various projects linked within. All you need do is give me a job which pays better than my current job. Thank you, please come again.
+Simply feel free to peruse my website and my various projects linked within. All you need do is give me a job which pays better than my current job. Thank you, please come again. The url to my Portfolio is: https://tscarl.github.io/portfolio/#introduction
 
 ## Contributor expectations
-If you're an experienced coder feeling like offering some insights and helping to teach me some new code-stuff, feel free, all help is welcome. you can help by: detailing issues not mentioned below, 
+If you're an experienced coder feeling like offering some insights and helping to teach me some new code-stuff, feel free, all help is welcome. you can help by: detailing issues not mentioned below.
 
 
 ## known issues
